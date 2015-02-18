@@ -12,8 +12,7 @@ If it is the first run, it will create a table for the migration.
 It will check every migration you define and apply it if needed.
 You can skip migration number and add later the migration.
 It will apply it, because it track which version have been applied.
-For example,
-You could apply version 2 and 4. Then, you could apply version 3.
+For example, You could apply version 2 and 4. Then, you could apply version 3.
 Of course operation of version 4 must not be linked to operation of version 3.
 
 ## HOW DO YOU MANAGE UNINSTALL, ERASE DATA:
@@ -34,18 +33,18 @@ var M = new Migrator(db, function(number, error) {
 ```
 
 ## HOW TO DEBUG MIGRATION:
--Connect the device on the computer.
--Make sure the device is detected by the computer.
--Make sure USB debugging is enabled on the device.
--Set the debug level (M.setDebugLevel(Migrator.DEBUG_HIGH);)
--Upload the app to the device
--Start chrome browser
--Enter the address: chrome://inspect/#devices
--Start the application on the device
--The device should appear on chrome browser.
--Click on inspect link.
--Open the console tab.
--See the log
+- Connect the device on the computer.
+- Make sure the device is detected by the computer.
+- Make sure USB debugging is enabled on the device.
+- Set the debug level (M.setDebugLevel(Migrator.DEBUG_HIGH);)
+- Upload the app to the device
+- Start chrome browser
+- Enter the address: chrome://inspect/#devices
+- Start the application on the device
+- The device should appear on chrome browser.
+- Click on inspect link.
+- Open the console tab.
+- See the log
 
 ## HOW TO CREATE A MIGRATION:
 ```javascript
