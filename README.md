@@ -1,5 +1,6 @@
 # Migrator JS
 Database migration tool in javascript
+
 Based on https://github.com/nanodeath/JS-Migrator
 
 ## DESCRIPTION
