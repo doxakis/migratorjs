@@ -17,6 +17,7 @@ Of course operation of version 4 must not be linked to operation of version 3.
 
 ## HOW DO YOU MANAGE UNINSTALL, ERASE DATA:
 UNINSTALL: It will delete the database and all tables (It includes the migration table).
+
 ERASE DATA: It will act has a new install. The migration table is created and all migration is applied.
 
 ## HOW TO USE:
