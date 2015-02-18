@@ -22,7 +22,7 @@ ERASE DATA: It will act has a new install. The migration table is created and al
 
 ## HOW TO USE:
 ```javascript
-var M = new Migrator(self.db, function(number, error) {
+var M = new Migrator(db, function(number, error) {
   // Function called when the migration has failed.
   // error.message contain the error message.
   // number is the failed migration number.
